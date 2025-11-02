@@ -17,3 +17,7 @@ calculator. The iterative solver alternates between updating u and v to minimize
 optimal methods applies the power iteration to find the top singular compenents analytically. The main function
 generates a random matrix, runs both methods, prints results and errors, and compares convergence quality. The 
 code demonstrates a numerical implementation without external libraries and a spectral approach to rank-1 approximation.
+
+Tensorapprximation.cpp
+
+This C++ program computes a rank 1 approximation of a 3D tensor using an alternating update method. It iteratively refines three vectors a, b, and c to capture the dominant structure of the tensor while minimizing reconstruction error. The code defines a simple Tensor3D class, normalization utilities, and update functions. The main function builds a synthetic tensor from known factors with noise, runs the algorithm, and prints the results including lambda, iteration count, and residual norm. It demonstrates how rank 1 approximation extends from matrices to tensors.
